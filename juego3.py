@@ -142,7 +142,7 @@ def move():
     for point, course in ghosts:
         if abs(pacman - point) < 20:
             return
-
+    ## Acá sustituí el valor de 100 por 1 y los fantasmas son más rápidos
     ontimer(move, 1)
 
 
